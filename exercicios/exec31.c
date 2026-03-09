@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Peça 5 números ao usuário e mostre: O maior número digitado foi: X;
+
 int main() {
 
     float v1[5], maior;
