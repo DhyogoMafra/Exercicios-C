@@ -15,8 +15,8 @@ int main() {
     tamanho = strlen(palavra);
 
     for(i = 0; i < tamanho / 2; i++) {
-        if (palavra[i] != palavra[tamanho - 1 - i]) {
-        palindromo = 0;
+        if (palavra[i] != palavra[tamanho - 1 - i]) {   //0 com 4
+        palindromo = 0;                                //1 com 3
         break;
 
         }
